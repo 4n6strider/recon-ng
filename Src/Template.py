@@ -5,7 +5,6 @@ import module
 import dns.resolver
 
 class Module(module.Module):
-
     def __init__(self, params):
         # initialize the module
         # the "query" parameter is optional and determines the "default" source of input
